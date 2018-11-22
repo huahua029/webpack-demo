@@ -130,6 +130,17 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
+/***/ "./src/google.png":
+/*!************************!*\
+  !*** ./src/google.png ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"80fa4bcab0351fdccb69c66fb55dcd00.png\";\n\n//# sourceURL=webpack:///./src/google.png?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -138,7 +149,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction component() {\n  var elementDiv = document.createElement('div');\n  var elementSpan = document.createElement('span');\n  elementSpan.innerHTML = 'hello webpack';\n  elementDiv.appendChild(elementSpan);\n  return elementDiv;\n}\n\ndocument.body.appendChild(component());\nconsole.log([1, 2, 3].map(function (x) {\n  return x * x;\n}));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _google_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./google.png */ \"./src/google.png\");\n/* harmony import */ var _google_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_google_png__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction component() {\n  var elementDiv = document.createElement('div');\n  var elementSpan = document.createElement('span');\n  var elementImg = document.createElement('img');\n  elementSpan.innerHTML = 'hello webpack';\n  elementImg.src = _google_png__WEBPACK_IMPORTED_MODULE_1___default.a;\n  elementDiv.appendChild(elementSpan);\n  elementDiv.appendChild(elementImg);\n  return elementDiv;\n}\n\ndocument.body.appendChild(component());\nconsole.log([1, 2, 3].map(function (x) {\n  return x * x;\n}));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
