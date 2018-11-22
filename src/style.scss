@@ -1,0 +1,10 @@
+div {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background: rosybrown;
+    >span {
+        display: inline-block;
+        padding: 20px;
+    }
+}

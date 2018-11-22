@@ -1,9 +1,14 @@
+import './style.scss'
+
 function component() {
-    var element = document.createElement('div');
+    var elementDiv = document.createElement('div');
+    var elementSpan = document.createElement('span');
 
-    element.innerHTML = 'hello webpack'
 
-    return element
+    elementSpan.innerHTML = 'hello webpack'
+    elementDiv.appendChild(elementSpan)
+
+    return elementDiv
 }
 
 document.body.appendChild(component())
