@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/_css-loader@1.0.1@css-loader/lib/css-base.js */ \"./node_modules/_css-loader@1.0.1@css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"div {\\n  width: 600px;\\n  height: 300px;\\n  margin: 0 auto;\\n  background: rosybrown; }\\n  div > span {\\n    display: inline-block;\\n    padding: 20px;\\n    margin: 0 auto; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/_css-loader@1.0.1@css-loader!./node_modules/_sass-loader@7.1.0@sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/_css-loader@1.0.1@css-loader/lib/css-base.js */ \"./node_modules/_css-loader@1.0.1@css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"div {\\n  width: 600px;\\n  height: 300px;\\n  margin: 0 auto;\\n  background: rosybrown; }\\n  div > span {\\n    display: inline-block;\\n    padding: 20px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/_css-loader@1.0.1@css-loader!./node_modules/_sass-loader@7.1.0@sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -138,7 +138,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction component() {\n    var elementDiv = document.createElement('div');\n    var elementSpan = document.createElement('span');\n\n\n    elementSpan.innerHTML = 'hello webpack'\n    elementDiv.appendChild(elementSpan)\n\n    return elementDiv\n}\n\ndocument.body.appendChild(component())\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction component() {\n  var elementDiv = document.createElement('div');\n  var elementSpan = document.createElement('span');\n  elementSpan.innerHTML = 'hello webpack';\n  elementDiv.appendChild(elementSpan);\n  return elementDiv;\n}\n\ndocument.body.appendChild(component());\nconsole.log([1, 2, 3].map(function (x) {\n  return x * x;\n}));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

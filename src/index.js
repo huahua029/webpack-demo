@@ -1,8 +1,8 @@
 import './style.scss'
 
 function component() {
-    var elementDiv = document.createElement('div');
-    var elementSpan = document.createElement('span');
+    let elementDiv = document.createElement('div');
+    let elementSpan = document.createElement('span');
 
 
     elementSpan.innerHTML = 'hello webpack'
@@ -12,3 +12,5 @@ function component() {
 }
 
 document.body.appendChild(component())
+
+console.log([1, 2, 3].map(x => x * x))
